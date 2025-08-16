@@ -11,6 +11,16 @@ def load_image():
         print("Successfully loaded the image.")
     return image
 
+
+# # Function to show image
+# def show_image(image, win_name="Image"):
+#     cv2.imshow(win_name, image)
+#     cv2.waitKey(0)
+#     cv2.destroyAllWindows()
+    
+
+
+
 # Function to show image
 def show_image(image, win_name="Image"):
     cv2.imshow(win_name, image)
